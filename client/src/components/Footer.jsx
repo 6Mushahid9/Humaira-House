@@ -17,7 +17,7 @@ const Footer = () => {
       </nav>
       <aside>
         <p>Copyright © {new Date().getFullYear()} - All right reserved by Humaira House</p>
-        <p>Designed and Developed by MUSAHID KHISAL ANSARI</p>
+        <p>Designed,Developed & Maintained by KHISAL</p>
       </aside>
   </footer>
   )
