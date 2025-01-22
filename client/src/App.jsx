@@ -1,9 +1,15 @@
-function App() {
-  return (
-    <>
-      <h1 className='text-red-500 text-5xl'>Mushahid</h1>
-    </>
-  )
-}
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from "./pages/home"
 
-export default App
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
